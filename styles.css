@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #3c2c3e;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+body {
+  background: url(/Images/kaniwa.jpg);
+  background-size: cover;
+}
+
+.header {
+  width: 100%;
+  height: 70px;
+  background-color: #b52b65;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  font-size: 15px;
+  padding: 10px;
+  position: fixed;
+  z-index: 1000;
+  border-bottom: 5px solid #3c2c3e;
+}
+
+.page {
+  width: 100px;
+  height: 50px;
+  background-color: #b52b65;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.pagina:hover {
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+.page1 {
+  width: 160px;
+  height: 50px;
+  background-color: #b52b65;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+}
