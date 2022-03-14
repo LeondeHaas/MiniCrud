@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="menu.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -29,26 +29,10 @@
       </div>
     </header>
     <div class="container">
-      <img class="bg" src="Images/japanese-japan-restaurant-culture.jpg" alt="">
+      <img class="bg" src="Images/sushi3.jpg" alt="">
     </div>
     <div class="block3">
       <div class="containerblock">
-         <img class="takeaway" src="Images/take.png" alt="">
-        <div class="takeaway1">
-           <a href="menu.php">
-        <div class="reservation">
-             <br><br><br><br><br><br><br>
-             <h1>Check our Menu</h1>
-             <img class="arrow" src="Images/001-right-arrow.png">
-        </div>
-        </a>
-        <a href="index.php">
-        <div class="menu">
-            <br><br><br><br><br><br><br>
-            <h1>Make a reservation</h1>
-             <img class="arrow" src="Images/001-right-arrow.png">
-        </div>
-        </a>
       </div>
     </div>
   </body>
@@ -80,7 +64,7 @@
          <h3>09:00 - 22:00</h3>
          <h3>09:00 - 22:00</h3>
          <h3>09:00 - 22:00</h3>
-         <h3>09:00 - 24:00</h3>
+         <h3>09:00 - 22:00</h3>
          <h3>09:00 - 22:00</h3>
        </div>
      </div>
