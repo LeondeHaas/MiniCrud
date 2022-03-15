@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style: none;
+}
+
+.header {
+  width: 100%;
+  height: 110px;
+  background-color: pink;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  font-size: 15px;
+  padding: 10px;
+  border: red;
+  position: fixed;
+  z-index: 1500;
+}
+
+.page {
+  width: 100px;
+  height: 50px;
+  background-color: pink;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.page1 {
+  width: 130px;
+  height: 50px;
+  background-color: pink;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+  margin-right: 60%;
+}
+
+.container {
+  width: 100%;
+  height: 900px;
+  background-color: rgb(255, 0, 43);
+}
+
+.footer {
+  width: auto;
+  height: 400px;
+  background-color: pink;
+  display: flex;
+  justify-content: space-around;
+}
+
+.block {
+  width: 250px;
+  height: 355px;
+  background-color: rgba(211, 149, 159, 0.76);
+  padding: 50px;
+  line-height: 35px;
+}
+
+.block1 {
+  width: 300px;
+  height: 355px;
+  background-color: rgb(211, 149, 159);
+  margin-top: 20px;
+  padding: 50px;
+  line-height: 50px;
+  border-radius: 20px;
+}
+
+.tm {
+  width: auto;
+  height: 18px;
+  background-color: rgb(211, 149, 159);
+  font-size: 15px;
+  text-align: center;
+}
+
+.containertime {
+  width: 500px;
+  height: 355px;
+  background-color: red;
+  margin-top: 20px;
+  display: flex;
+}
+
+.socials {
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  border-bottom: solid black 20px;
+}
+
+.page :hover {
+  color: white;
+  transition: 0.35s;
+  border-bottom: white solid;
+}
+
+.page1 :hover {
+  color: white;
+  transition: 0.35s;
+  border-bottom: white solid;
+}
+
+/* The order page */
+
+.block3 {
+  width: auto;
+  height: 500px;
+  background-image: linear-gradient(rgb(224, 70, 70), pink);
+}
+
+.menuorder {
+  width: auto;
+  height: 100px;
+  background-color: rgb(241, 106, 129);
+  display: flex;
+  justify-content: center;
+}
+
+.containerblock {
+  width: auto;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.order {
+  width: 450px;
+  height: 300px;
+  margin-top: 20px;
+  transition: 0.55s;
+}
+
+.ordercontainer {
+  width: 460px;
+  height: 260px;
+}
+
+.menupages {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menusushi {
+  padding: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.orderbutton {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(231, 75, 101);
+}
+
+/* The order page */
+
+.order:hover {
+  width: 470px;
+  height: 320px;
+  transition: 0.55s;
+}
+
+.takeaway {
+  margin-top: 85px;
+  margin-left: 100px;
+  border-radius: 60px;
+  width: 750px;
+  height: 600px;
+  box-shadow: 5px 5px 10px;
+}
+
+.takeaway1 {
+  margin-top: 85px;
+  width: 350px;
+  height: 600px;
+  margin-left: 180px;
+  border-radius: 60px;
+  font-size: 15px;
+  justify-content: center;
+  box-shadow: 5px 5px 30px;
+}
+
+.balk {
+  width: 300px;
+  height: 5px;
+  background-color: black;
+}
+
+.reservation {
+  width: 350px;
+  height: 300px;
+  background-color: rgba(211, 149, 159, 0.76);
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  text-align: center;
+}
+
+.menu {
+  width: 350px;
+  height: 300px;
+  background-color: rgba(211, 149, 159, 0.76);
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  text-align: center;
+}
+
+.menu:hover {
+  background-color: rgb(209, 88, 88);
+  transition: 0.5s;
+  text-decoration: underline;
+}
+
+.reservation:hover {
+  background-color: rgb(209, 88, 88);
+  transition: 0.5s;
+  text-decoration: underline;
+}
+
+.arrow {
+  width: 70px;
+  height: 70px;
+}

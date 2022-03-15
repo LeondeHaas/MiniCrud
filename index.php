@@ -29,7 +29,7 @@
       </div>
     </header>
     <div class="container">
-      <img class="bg" src="Images/japanese-japan-restaurant-culture.jpg" alt="">
+      <img class="bg" src="Images/pexels-aleksandar-pasaric-2339009.jpg" alt="">
     </div>
     <div class="block3">
       <div class="containerblock">
@@ -39,14 +39,14 @@
         <div class="reservation">
              <br><br><br><br><br><br><br>
              <h1>Check our Menu</h1>
-             <img class="arrow" src="Images/001-right-arrow.png">
+             <img class="arrow" src="Images/001-restaurant.png">
         </div>
         </a>
         <a href="index.php">
         <div class="menu">
             <br><br><br><br><br><br><br>
             <h1>Make a reservation</h1>
-             <img class="arrow" src="Images/001-right-arrow.png">
+             <img class="arrow" src="Images/002-booking.png">
         </div>
         </a>
       </div>
@@ -56,11 +56,19 @@
     <div class="footer">
       <div class="block1">
         <h1>Location</h1>
-        <h3>randomstraatnaam 65</h3>
-        <h3> 5345 GB Nijmegen</h3>
+        <h3>Bloemerstraat 36</h3>
+        <h3> 6511 EK Nijmegen</h3>
         <h3> 024-9447291</h3>
-        <img class="socials" src="Images/001-instagram.png" alt="">
-        <img class="socials" src="Images/003-facebook.png" alt="">
+        <a href="https://www.instagram.com/">
+          <img class="socials" src="Images/001-instagram.png" alt="">
+        </a>
+         <a href="https://nl-nl.facebook.com/">
+          <img class="socials" src="Images/003-facebook.png" alt="">
+        </a>
+         <a href="https://www.google.nl/maps/@51.822606,5.8647082,14z">
+          <img class="socials" src="Images/001-map.png" alt="">
+        </a>
+       
       </div>
      <div class="containertime">
        <div class="block">
@@ -85,25 +93,7 @@
        </div>
      </div>
      <div class="containertime">
-       <div class="block">
-         <h1>Pickup</h1>
-         <h3>Monday</h3>
-         <h3>Tuesday</h3>
-         <h3>Wednesday</h3>
-         <h3>Thursday</h3>
-         <h3>Friday</h3>
-         <h3>Saturday</h3>
-         <h3>Sunday</h3>
-       </div>
-       <div class="block">
-          <h1>Times</h1>
-         <h3>09:00 - 22:00</h3>
-         <h3>09:00 - 22:00</h3>
-         <h3>09:00 - 22:00</h3>
-         <h3>09:00 - 22:00</h3>
-         <h3>09:00 - 22:00</h3>
-         <h3>09:00 - 22:00</h3>
-         <h3>09:00 - 22:00</h3>
+      <div class="mapouter"><div class="gmap_canvas"><iframe width="500" height="355" id="gmap_canvas" src="https://maps.google.com/maps?q=Kaniwa,%20Bloemerstraat%2036,%206511%20EK%20Nijmegen&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com"></a><br><style>.mapouter{position:relative;text-align:right;height:355px;width:500px;}</style><a href="https://www.embedgooglemap.net">google map link html</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:355px;width:500px;}</style></div></div>
        </div>
      </div>
     
