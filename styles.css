@@ -45,7 +45,7 @@ li {
 .img {
   width: 100px;
   height: 100px;
-  margin-right: 60%;
+  margin-right: 59%;
 }
 
 .container {
@@ -91,7 +91,6 @@ li {
 .containertime {
   width: 500px;
   height: 355px;
-  background-color: red;
   margin-top: 20px;
   display: flex;
 }
@@ -211,4 +210,15 @@ li {
   transition: 0.55s;
   width: 85px;
   height: 85px;
+}
+
+/* .mapouter:hover {
+  width: 700px;
+  height: 555px;
+} */
+
+.cart {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
