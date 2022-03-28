@@ -166,6 +166,7 @@ li {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  font-size: 25px;
 }
 
 .menusushi {
@@ -179,6 +180,8 @@ li {
   height: 150px;
   background-color: rgb(231, 75, 101);
   display: flex;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px;
 }
 
 /* .ordertext {
@@ -262,6 +265,7 @@ li {
   margin-top: 8px;
   margin-right: 5px;
   padding: 5px;
+  transition: 0.55s;
 }
 
 /* .order:hover {
@@ -272,4 +276,11 @@ li {
 
 .text {
   padding: 20px;
+  transition: 0.55s;
+}
+
+.text:hover {
+  border-radius: 20px;
+  transition: 0.55s;
+  box-shadow: inset -400px 0 0 0 rgb(223, 36, 67);
 }

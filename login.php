@@ -23,7 +23,7 @@
           <li><a class="pagina" href="index.php">About</a></li>
         </div>
         <div class="page">
-          <li><a class="pagina" href="index.php">Contact</a></li>
+          <li><a class="pagina" href="contact.php">Contact</a></li>
         </div>
           <div class="page">
           <li><a class="pagina" href="login.php">Login</a></li>
@@ -48,6 +48,6 @@
         </button>
       </div>
     </div>
-
+      <script src="js/main.js"></script>
   </body>
 </html>

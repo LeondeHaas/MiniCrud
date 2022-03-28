@@ -25,7 +25,7 @@
       <div class="containerblock">
         <div class="ordercontainer">
           <div class="order">
-            <img class="menusushi" src="Images/menusushi.png" alt="">
+            <img class="menusushi" src="Images/pexels-valeria-boltneva-10295770 (1).jpg" alt="">
              <div class="orderbutton">
                <a href="index.php">
                 <img class="orderimg" src="Images/001-add-to-cart.png" alt="">
@@ -40,7 +40,7 @@
              </div>
              <div class="ordercontainer">
           <div class="order">
-            <img class="menusushi" src="Images/menusushi.png" alt="">
+            <img class="menusushi" src="Images/pexels-valeria-boltneva-10295770 (1).jpg" alt="">
              <div class="orderbutton">
                 <a href="index.php">
                 <img class="orderimg" src="Images/001-add-to-cart.png" alt="">
@@ -59,7 +59,7 @@
         </div>
         <div class="ordercontainer">
           <div class="order">
-            <img class="menusushi" src="Images/menusushi.png" alt="">
+            <img class="menusushi" src="Images/pexels-valeria-boltneva-10295770 (1).jpg" alt="">
              <div class="orderbutton">
                 <a href="index.php">
                 <img class="orderimg" src="Images/001-add-to-cart.png" alt="">
@@ -74,7 +74,7 @@
              </div>
              <div class="ordercontainer">
           <div class="order">
-            <img class="menusushi" src="Images/menusushi.png" alt="">
+            <img class="menusushi" src="Images/pexels-valeria-boltneva-10295770 (1).jpg" alt="">
              <div class="orderbutton">
                 <a href="index.php">
                 <img class="orderimg" src="Images/001-add-to-cart.png" alt="">
@@ -93,7 +93,7 @@
         </div>
         <div class="ordercontainer">
           <div class="order">
-            <img class="menusushi" src="Images/menusushi.png" alt="">
+            <img class="menusushi" src="Images/pexels-valeria-boltneva-10295770 (1).jpg" alt="">
               <div class="orderbutton">
                   <a href="index.php">
                 <img class="orderimg" src="Images/001-add-to-cart.png" alt="">
@@ -108,7 +108,7 @@
              </div>
              <div class="ordercontainer">
           <div class="order">
-            <img class="menusushi" src="Images/menusushi.png" alt="">
+            <img class="menusushi" src="Images/pexels-valeria-boltneva-10295770 (1).jpg" alt="">
              <div class="orderbutton">
                 <a href="index.php">
                 <img class="orderimg" src="Images/001-add-to-cart.png" alt="">
