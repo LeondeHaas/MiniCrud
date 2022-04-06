@@ -222,3 +222,74 @@ li {
   margin-left: 10px;
   margin-right: 10px;
 }
+
+@media only screen and (max-width: 400px) {
+  .header {
+    height: 125px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 5px;
+  }
+
+  .bg {
+    width: 370px;
+    height: 550px;
+  }
+
+  .container {
+    height: 550px;
+  }
+
+  .containerblock {
+    display: flex;
+    flex-wrap: wrap;
+    height: 750px;
+    width: 200px;
+    justify-content: center;
+  }
+
+  .takeaway {
+    display: none;
+  }
+
+  /* .reservation {
+  } */
+
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+  }
+
+  .block {
+    padding: 30px;
+    width: 187px;
+    height: 380px;
+  }
+
+  .tm {
+    margin-top: 770px;
+  }
+
+  .containertime {
+    width: 500px;
+    font-size: 15px;
+  }
+
+  .block3 {
+    width: auto;
+  }
+
+  .img {
+    display: none;
+  }
+
+  .cart {
+    margin-left: 23px;
+  }
+
+  .mapouter {
+    width: 200px;
+    height: 200px;
+  }
+}

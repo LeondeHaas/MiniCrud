@@ -64,7 +64,7 @@ li {
 
 .form {
   width: 400px;
-  height: 500px;
+  height: 320px;
   position: absolute;
   top: 25px;
   left: 25px;
@@ -73,26 +73,115 @@ li {
   margin-left: 560px;
   margin-top: 200px;
   text-align: center;
+  border-radius: 20px;
 }
 
 .psw {
   width: 250px;
   height: 25px;
+  background-color: pink;
 }
 
 .usr {
   width: 250px;
   height: 25px;
+  background-color: pink;
 }
 
 .sbt {
-  width: 100px;
+  width: 150px;
   height: 50px;
   margin-top: 100px;
+  background-color: pink;
+  transition: 0.35s;
 }
 
 .register {
   width: 150px;
   height: 50px;
-  margin-top: 165px;
+  background-color: pink;
+  transition: 0.35s;
+}
+
+.sbt:hover {
+  background-color: rgb(223, 36, 67);
+  transition: 0.35s;
+}
+
+.register:hover {
+  background-color: rgb(223, 36, 67);
+  transition: 0.35s;
+}
+
+@media only screen and (max-width: 400px) {
+  .header {
+    height: 125px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 5px;
+  }
+
+  .bg {
+    width: 378px;
+    height: 760px;
+  }
+
+  .container {
+    height: 760px;
+  }
+
+  .containerblock {
+    display: flex;
+    flex-wrap: wrap;
+    height: 750px;
+    width: 200px;
+    justify-content: center;
+  }
+
+  .takeaway {
+    display: none;
+  }
+
+  /* .reservation {
+  } */
+
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+  }
+
+  .block {
+    padding: 65px;
+    width: 250px;
+  }
+
+  .tm {
+    margin-top: 705px;
+  }
+
+  .containertime {
+    width: 500px;
+    height: 335px;
+    font-size: 15px;
+  }
+
+  .block3 {
+    width: auto;
+  }
+
+  .img {
+    display: none;
+  }
+
+  .cart {
+    margin-left: 23px;
+  }
+
+  .form {
+    width: 325px;
+    height: 385px;
+    margin-left: -4px;
+    margin-top: 180px;
+  }
 }

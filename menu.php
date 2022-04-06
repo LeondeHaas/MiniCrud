@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
    <?php
-  include ('Includes/header.php')
+  // include ('Includes/connector.php');
+  include ('Includes/header.php');
+
   ?>
     <div class="container">
       <img class="bg" src="Images/pexels-valeria-boltneva-684965.jpg" alt="">
@@ -125,6 +127,7 @@
         </div>
           </div>
         </div>
+        
         
          <!-- container with all orders -->
       </div>
