@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="menu.css" />
+    <link rel="stylesheet" href="styles.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,10 +11,10 @@
   include ('Includes/header.php');
 
   ?>
-    <div class="container">
+    <div class="containermenu">
       <img class="bg" src="Images/pexels-valeria-boltneva-684965.jpg" alt="">
     </div>
-    <div class="block3">
+    <div class="block4">
       <!-- container with all orders -->
       <div class="menuorder">
        <div class="menupages">
@@ -24,8 +24,8 @@
          <li><a href="menu3.php">Family</a></li>
        </div>
       </div>
-      <div class="containerblock">
-        <div class="ordercontainer">
+      <div class="containerblock1">
+        <div class="ordercontainer1">
           <div class="order">
             <img class="menusushi" src="Images/menusushi.png" alt="">
              <div class="orderbutton">
@@ -40,7 +40,7 @@
                   <h3>$3,99</h3>
                </div>
              </div>
-             <div class="ordercontainer">
+             <div class="ordercontainer1">
           <div class="order">
             <img class="menusushi" src="Images/menusushi.png" alt="">
              <div class="orderbutton">
@@ -59,7 +59,7 @@
         </div>
           </div>
         </div>
-        <div class="ordercontainer">
+        <div class="ordercontainer1">
           <div class="order">
             <img class="menusushi" src="Images/menusushi.png" alt="">
              <div class="orderbutton">
@@ -74,7 +74,7 @@
                   <h3>$2,99</h3>
                </div>
              </div>
-<div class="ordercontainer">
+<div class="ordercontainer1">
           <div class="order">
             <img class="menusushi" src="Images/menusushi.png" alt="">
              <div class="orderbutton">
@@ -93,7 +93,7 @@
         </div>
           </div>
         </div>
-        <div class="ordercontainer">
+        <div class="ordercontainer1">
           <div class="order">
             <img class="menusushi" src="Images/menusushi.png" alt="">
               <div class="orderbutton">
@@ -108,7 +108,7 @@
                   <h3>$1,99</h3>
                </div>
              </div>
-             <div class="ordercontainer">
+             <div class="ordercontainer1">
           <div class="order">
             <img class="menusushi" src="Images/menusushi.png" alt="">
              <div class="orderbutton">

@@ -56,7 +56,7 @@ li {
 
 .footer {
   width: auto;
-  height: 400px;
+  height: 460px;
   background-color: pink;
   display: flex;
   justify-content: space-around;
@@ -64,7 +64,7 @@ li {
 
 .block {
   width: 250px;
-  height: 355px;
+  height: 400px;
   background-color: rgba(211, 149, 159, 0.76);
   padding: 50px;
   line-height: 35px;
@@ -212,16 +212,235 @@ li {
   height: 85px;
 }
 
-/* .mapouter:hover {
-  width: 700px;
-  height: 555px;
-} */
-
 .cart {
   margin-top: 20px;
   margin-left: 10px;
   margin-right: 10px;
 }
+
+/* CSS for menu pages */
+
+.containermenu {
+  width: 100%;
+  height: 900px;
+  background-color: rgb(255, 0, 43);
+}
+
+.block4 {
+  width: auto;
+  height: 1300px;
+  background-image: linear-gradient(rgb(224, 70, 70), pink);
+}
+
+.menuorder {
+  width: auto;
+  height: 100px;
+  background-color: rgb(241, 106, 129);
+  display: flex;
+  justify-content: center;
+}
+
+.menupages {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 25px;
+}
+
+.containerblock1 {
+  width: auto;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.ordercontainer1 {
+  width: 460px;
+  height: 260px;
+  margin-top: 100px;
+}
+
+.order {
+  width: 450px;
+  height: 300px;
+  margin-top: 20px;
+  transition: 0.55s;
+}
+
+.menusushi {
+  padding: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.orderbutton {
+  width: 100%;
+  height: 150px;
+  background-color: rgb(231, 75, 101);
+  display: flex;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px;
+}
+
+.text {
+  padding: 20px;
+  transition: 0.55s;
+}
+
+.text:hover {
+  border-radius: 20px;
+  transition: 0.55s;
+  box-shadow: inset -400px 0 0 0 rgb(223, 36, 67);
+}
+/* CSS for Login page */
+
+.form {
+  width: 400px;
+  height: 320px;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  z-index: 2;
+  background-color: rgba(128, 128, 128, 0.61);
+  margin-left: 560px;
+  margin-top: 200px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.psw {
+  width: 250px;
+  height: 25px;
+  background-color: pink;
+}
+
+.usr {
+  width: 250px;
+  height: 25px;
+  background-color: pink;
+}
+
+.sbt {
+  width: 150px;
+  height: 50px;
+  margin-top: 100px;
+  background-color: pink;
+  transition: 0.35s;
+}
+
+.register {
+  width: 150px;
+  height: 50px;
+  background-color: pink;
+  transition: 0.35s;
+}
+
+.sbt:hover {
+  background-color: rgb(223, 36, 67);
+  transition: 0.35s;
+}
+
+.register:hover {
+  background-color: rgb(223, 36, 67);
+  transition: 0.35s;
+}
+
+/* Responsive Menu pages */
+
+@media only screen and (max-width: 400px) {
+  .block4 {
+    height: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 420px;
+  }
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+  }
+
+  .menusushi {
+    display: none;
+  }
+
+  .orderbutton {
+    width: 350px;
+    height: 170px;
+  }
+
+  .order {
+    margin-top: -90px;
+  }
+
+  .header {
+    height: 125px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 5px;
+  }
+
+  .bg {
+    width: 370px;
+    height: 550px;
+  }
+
+  .img {
+    display: none;
+  }
+
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+  }
+
+  .block {
+    padding: 40px;
+    width: 200px;
+  }
+
+  .tm {
+    margin-top: 705px;
+  }
+
+  .containertime {
+    width: 375px;
+    height: 335px;
+    font-size: 15px;
+  }
+
+  .container {
+    height: 100%;
+    background-color: black;
+  }
+
+  .mapouter {
+    display: none;
+  }
+
+  .menuorder {
+    width: 365px;
+  }
+
+  .menupages {
+    font-size: 20px;
+  }
+
+  .block {
+    padding: 30px;
+    width: 187px;
+    height: 380px;
+  }
+}
+
+/* Responsive Home page */
 
 @media only screen and (max-width: 400px) {
   .header {
@@ -252,19 +471,21 @@ li {
     display: none;
   }
 
-  /* .reservation {
-  } */
-
   .footer {
     display: flex;
     flex-wrap: wrap;
     height: 400px;
+    width: 380px;
   }
 
   .block {
     padding: 30px;
     width: 187px;
     height: 380px;
+  }
+
+  .block1 {
+    margin-right: 15px;
   }
 
   .tm {
@@ -276,8 +497,72 @@ li {
     font-size: 15px;
   }
 
-  .block3 {
-    width: auto;
+  /* .block3 {
+    width: 380px;
+  } */
+
+  .img {
+    display: none;
+  }
+
+  .cart {
+    margin-left: 23px;
+  }
+}
+
+/* Responsive Login page */
+
+@media only screen and (max-width: 400px) {
+  .header {
+    height: 125px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 5px;
+  }
+
+  .bg {
+    width: 378px;
+    height: 760px;
+  }
+
+  .container {
+    height: 760px;
+  }
+
+  .containerblock {
+    display: flex;
+    flex-wrap: wrap;
+    height: 750px;
+    width: 200px;
+    justify-content: center;
+  }
+
+  .takeaway {
+    display: none;
+  }
+
+  /* .reservation {
+  } */
+
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+  }
+
+  .block {
+    width: 190px;
+    padding: 33px;
+  }
+
+  .tm {
+    margin-top: 705px;
+  }
+
+  .containertime {
+    width: 500px;
+    height: 335px;
+    font-size: 15px;
   }
 
   .img {
@@ -288,8 +573,10 @@ li {
     margin-left: 23px;
   }
 
-  .mapouter {
-    width: 200px;
-    height: 200px;
+  .form {
+    width: 325px;
+    height: 385px;
+    margin-left: -4px;
+    margin-top: 180px;
   }
 }
