@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style: none;
+}
+
+.header {
+  width: 100%;
+  height: 110px;
+  background-color: pink;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  font-size: 15px;
+  padding: 10px;
+  border: red;
+  position: fixed;
+  z-index: 1500;
+}
+
+.page {
+  width: 100px;
+  height: 50px;
+  background-color: pink;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.page1 {
+  width: 130px;
+  height: 50px;
+  background-color: pink;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+  margin-right: 59%;
+}
+
+.container {
+  width: 100%;
+  height: 750px;
+  background-color: rgb(211, 149, 159);
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  position: absolute;
+  z-index: 1;
+}
+
+.form {
+  width: 400px;
+  height: 320px;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  z-index: 2;
+  background-color: rgba(128, 128, 128, 0.61);
+  margin-left: 560px;
+  margin-top: 200px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.psw {
+  width: 250px;
+  height: 25px;
+  background-color: pink;
+}
+
+.usr {
+  width: 250px;
+  height: 25px;
+  background-color: pink;
+}
+
+.sbt {
+  width: 150px;
+  height: 50px;
+  margin-top: 100px;
+  background-color: pink;
+  transition: 0.35s;
+}
+
+.register {
+  width: 150px;
+  height: 50px;
+  background-color: pink;
+  transition: 0.35s;
+}
+
+.sbt:hover {
+  background-color: rgb(223, 36, 67);
+  transition: 0.35s;
+}
+
+.register:hover {
+  background-color: rgb(223, 36, 67);
+  transition: 0.35s;
+}
+
+@media only screen and (max-width: 400px) {
+  .header {
+    height: 125px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 5px;
+  }
+
+  .bg {
+    width: 378px;
+    height: 760px;
+  }
+
+  .container {
+    height: 760px;
+  }
+
+  .containerblock {
+    display: flex;
+    flex-wrap: wrap;
+    height: 750px;
+    width: 200px;
+    justify-content: center;
+  }
+
+  .takeaway {
+    display: none;
+  }
+
+  /* .reservation {
+  } */
+
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+  }
+
+  .block {
+    padding: 65px;
+    width: 250px;
+  }
+
+  .tm {
+    margin-top: 705px;
+  }
+
+  .containertime {
+    width: 500px;
+    height: 335px;
+    font-size: 15px;
+  }
+
+  .block3 {
+    width: auto;
+  }
+
+  .img {
+    display: none;
+  }
+
+  .cart {
+    margin-left: 23px;
+  }
+
+  .form {
+    width: 325px;
+    height: 385px;
+    margin-left: -4px;
+    margin-top: 180px;
+  }
+}

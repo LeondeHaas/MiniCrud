@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style: none;
+}
+
+.header {
+  width: 100%;
+  height: 110px;
+  background-color: pink;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  font-size: 15px;
+  padding: 10px;
+  border: red;
+  position: fixed;
+  z-index: 1500;
+}
+
+.page {
+  width: 100px;
+  height: 50px;
+  background-color: pink;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.page1 {
+  width: 130px;
+  height: 50px;
+  background-color: pink;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+  margin-right: 59%;
+}
+
+.container {
+  width: 100%;
+  height: 900px;
+  background-color: rgb(211, 149, 159);
+}
+
+.footer {
+  width: auto;
+  height: 400px;
+  background-color: pink;
+  display: flex;
+  justify-content: space-around;
+}
+
+.block {
+  width: 250px;
+  height: 355px;
+  background-color: rgba(211, 149, 159, 0.76);
+  padding: 50px;
+  line-height: 35px;
+}
+
+.block1 {
+  width: 300px;
+  height: 355px;
+  background-color: rgb(211, 149, 159);
+  margin-top: 20px;
+  padding: 50px;
+  line-height: 50px;
+  border-radius: 20px;
+}
+
+.tm {
+  width: auto;
+  height: 18px;
+  background-color: rgb(211, 149, 159);
+  font-size: 15px;
+  text-align: center;
+}
+
+.containertime {
+  width: 500px;
+  height: 355px;
+  margin-top: 20px;
+  display: flex;
+}
+
+.socials {
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+  transition: 0.55s;
+}
+
+.socials:hover {
+  width: 57px;
+  height: 57px;
+  transition: 0.55s;
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+}
+
+.page :hover {
+  color: white;
+  transition: 0.35s;
+  border-bottom: white solid;
+}
+
+.page1 :hover {
+  color: white;
+  transition: 0.35s;
+  border-bottom: white solid;
+}
+
+.block3 {
+  width: auto;
+  height: 750px;
+  background-image: linear-gradient(rgb(219, 109, 109), pink);
+}
+
+.containerblock {
+  width: 100%;
+  height: 750px;
+  display: flex;
+}
+
+.takeaway {
+  margin-top: 85px;
+  margin-left: 100px;
+  border-radius: 60px;
+  width: 750px;
+  height: 600px;
+  box-shadow: 5px 5px 10px;
+}
+
+.takeaway1 {
+  margin-top: 85px;
+  width: 350px;
+  height: 600px;
+  margin-left: 180px;
+  border-radius: 60px;
+  font-size: 15px;
+  justify-content: center;
+  transition: 0.55s;
+}
+
+.takeaway1:hover {
+  box-shadow: 10px 10px 70px;
+  transition: 0.55s;
+}
+
+.balk {
+  width: 300px;
+  height: 5px;
+  background-color: black;
+}
+
+.menu {
+  width: 350px;
+  height: 300px;
+  background-color: rgba(211, 149, 159, 0.76);
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  text-align: center;
+  transition: ease-out 0.55s;
+}
+
+.reservation {
+  width: 350px;
+  height: 300px;
+  background-color: rgba(211, 149, 159, 0.76);
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  text-align: center;
+  transition: ease-out 0.55s;
+}
+
+.menu:hover {
+  background-color: rgb(209, 88, 88);
+  box-shadow: inset 0 400px 0 0 rgb(218, 77, 101);
+}
+
+.reservation:hover {
+  background-color: rgb(209, 88, 88);
+  box-shadow: inset 0 -400px 0 0 rgb(218, 77, 101);
+}
+
+.arrow {
+  width: 65px;
+  height: 65px;
+  margin-top: 20px;
+  transition: 0.55s;
+}
+
+.arrow:hover {
+  transition: 0.55s;
+  width: 85px;
+  height: 85px;
+}
+
+/* .mapouter:hover {
+  width: 700px;
+  height: 555px;
+} */
+
+.cart {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 400px) {
+  .header {
+    height: 125px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 5px;
+  }
+
+  .bg {
+    width: 370px;
+    height: 550px;
+  }
+
+  .container {
+    height: 550px;
+  }
+
+  .containerblock {
+    display: flex;
+    flex-wrap: wrap;
+    height: 750px;
+    width: 200px;
+    justify-content: center;
+  }
+
+  .takeaway {
+    display: none;
+  }
+
+  /* .reservation {
+  } */
+
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+  }
+
+  .block {
+    padding: 30px;
+    width: 187px;
+    height: 380px;
+  }
+
+  .tm {
+    margin-top: 770px;
+  }
+
+  .containertime {
+    width: 500px;
+    font-size: 15px;
+  }
+
+  .block3 {
+    width: auto;
+  }
+
+  .img {
+    display: none;
+  }
+
+  .cart {
+    margin-left: 23px;
+  }
+
+  .mapouter {
+    width: 200px;
+    height: 200px;
+  }
+}
