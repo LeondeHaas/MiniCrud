@@ -95,7 +95,7 @@
               <div class="text">
                   <h2>Maki</h2>
                   <br>
-                  <h4>111Tuna, edamame, cucumber, avocado, chili flakes & sriracha mayo</h4>
+                  <h4>Tuna, edamame, cucumber, avocado, chili flakes & sriracha mayo</h4>
                   <br>
                   <h3>$3,99</h3>
              </div>
