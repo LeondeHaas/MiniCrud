@@ -7,9 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
    <?php
-  include ('Includes/header.php')
+  // include ('Includes/connector.php');
+  include ('Includes/header.php');
+
   ?>
-    <div class="container">
+    <div class="containermenu">
       <img class="bg" src="Images/pexels-valeria-boltneva-684965.jpg" alt="">
     </div>
     <div class="block4">
@@ -22,114 +24,102 @@
          <li><a href="menu3.php">Family</a></li>
        </div>
       </div>
-      <div class="containerblock1">
-        <div class="ordercontainer1">
-          <div class="order">
-            <img class="menusushi" src="Images/pexels-valeria-boltneva-10295770 (1).jpg" alt="">
-             <div class="orderbutton">
-               <a href="index.php">
-                <img class="orderimg" src="Images/001-add-to-cart.png" alt="">
-               </a>
-               <div class="text">
-                 <h2>Maki</h2>
-                  <br>
-                  <h4>111Tuna, edamame, cucumber, avocado, chili flakes & sriracha mayo</h4>
-                  <br>
-                  <h3>$3,99</h3>
-               </div>
-             </div>
-             <div class="ordercontainer1">
-          <div class="order">
-            <img class="menusushi" src="Images/pexels-valeria-boltneva-10295770 (1).jpg" alt="">
-             <div class="orderbutton">
-                <a href="index.php">
-                <img class="orderimg" src="Images/001-add-to-cart.png" alt="">
-               </a>
-                 <div class="text">
+      <div class="menuholder">
+        <!-- menu -->
+        <div class="menu1">
+           <img class="menusushi" src="Images/pexels-valeria-boltneva-10295770 (1).jpg" alt="">
+           <div class="orderbutton">
+              <a href="index.php">
+              <img class="orderimg" src="Images/001-add-to-cart.png" alt="">
+              </a>
+              <div class="text">
                   <h2>Maki</h2>
                   <br>
                   <h4>111Tuna, edamame, cucumber, avocado, chili flakes & sriracha mayo</h4>
                   <br>
                   <h3>$3,99</h3>
-               </div>
              </div>
-          </div>
+           </div>
         </div>
-          </div>
-        </div>
-        <div class="ordercontainer1">
-          <div class="order">
-            <img class="menusushi" src="Images/pexels-valeria-boltneva-10295770 (1).jpg" alt="">
-             <div class="orderbutton">
-                <a href="index.php">
-                <img class="orderimg" src="Images/001-add-to-cart.png" alt="">
-               </a>
-                 <div class="text">
+         <div class="menu1">
+           <img class="menusushi" src="Images/pexels-valeria-boltneva-10295770 (1).jpg" alt="">
+           <div class="orderbutton">
+              <a href="index.php">
+              <img class="orderimg" src="Images/001-add-to-cart.png" alt="">
+              </a>
+              <div class="text">
                   <h2>Maki</h2>
                   <br>
                   <h4>111Tuna, edamame, cucumber, avocado, chili flakes & sriracha mayo</h4>
                   <br>
                   <h3>$3,99</h3>
-               </div>
              </div>
-             <div class="ordercontainer1">
-          <div class="order">
-            <img class="menusushi" src="Images/pexels-valeria-boltneva-10295770 (1).jpg" alt="">
-             <div class="orderbutton">
-                <a href="index.php">
-                <img class="orderimg" src="Images/001-add-to-cart.png" alt="">
-               </a>
-                 <div class="text">
-                <h2>Maki</h2>
-                  <br>
-                  <h4>111Tuna, edamame, cucumber, avocado, chili flakes & sriracha mayo</h4>
-                  <br>
-                  <h3>$3,99</h3>
-               </div>
-             </div>
-          </div>
+           </div>
         </div>
-          </div>
-        </div>
-        <div class="ordercontainer1">
-          <div class="order">
-            <img class="menusushi" src="Images/pexels-valeria-boltneva-10295770 (1).jpg" alt="">
-              <div class="orderbutton">
-                  <a href="index.php">
-                <img class="orderimg" src="Images/001-add-to-cart.png" alt="">
-               </a>
-                 <div class="text">
+         <div class="menu1">
+           <img class="menusushi" src="Images/pexels-valeria-boltneva-10295770 (1).jpg" alt="">
+           <div class="orderbutton">
+              <a href="index.php">
+              <img class="orderimg" src="Images/001-add-to-cart.png" alt="">
+              </a>
+              <div class="text">
                   <h2>Maki</h2>
                   <br>
                   <h4>111Tuna, edamame, cucumber, avocado, chili flakes & sriracha mayo</h4>
                   <br>
                   <h3>$3,99</h3>
-               </div>
              </div>
-             <div class="ordercontainer1">
-          <div class="order">
-            <img class="menusushi" src="Images/pexels-valeria-boltneva-10295770 (1).jpg" alt="">
-             <div class="orderbutton">
-                <a href="index.php">
-                <img class="orderimg" src="Images/001-add-to-cart.png" alt="">
-               </a>
-                 <div class="text">
+           </div>
+        </div>
+         <div class="menu1">
+           <img class="menusushi" src="Images/pexels-valeria-boltneva-10295770 (1).jpg" alt="">
+           <div class="orderbutton">
+              <a href="index.php">
+              <img class="orderimg" src="Images/001-add-to-cart.png" alt="">
+              </a>
+              <div class="text">
                   <h2>Maki</h2>
                   <br>
                   <h4>111Tuna, edamame, cucumber, avocado, chili flakes & sriracha mayo</h4>
                   <br>
                   <h3>$3,99</h3>
-               </div>
              </div>
-          </div>
+           </div>
         </div>
-          </div>
-          
+         <div class="menu1">
+           <img class="menusushi" src="Images/pexels-valeria-boltneva-10295770 (1).jpg" alt="">
+           <div class="orderbutton">
+              <a href="index.php">
+              <img class="orderimg" src="Images/001-add-to-cart.png" alt="">
+              </a>
+              <div class="text">
+                  <h2>Maki</h2>
+                  <br>
+                  <h4>111Tuna, edamame, cucumber, avocado, chili flakes & sriracha mayo</h4>
+                  <br>
+                  <h3>$3,99</h3>
+             </div>
+           </div>
         </div>
-        
-         <!-- container with all orders -->
+         <div class="menu1">
+           <img class="menusushi" src="Images/pexels-valeria-boltneva-10295770 (1).jpg" alt="">
+           <div class="orderbutton">
+              <a href="index.php">
+              <img class="orderimg" src="Images/001-add-to-cart.png" alt="">
+              </a>
+              <div class="text">
+                  <h2>Maki</h2>
+                  <br>
+                  <h4>111Tuna, edamame, cucumber, avocado, chili flakes & sriracha mayo</h4>
+                  <br>
+                  <h3>$3,99</h3>
+             </div>
+           </div>
+        </div>
+        <!-- menu -->
       </div>
     </div>
+    
   </body>
     <?php
    include ('Includes/footer.php')
