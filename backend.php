@@ -24,10 +24,27 @@
       <button class="buttonsD">
         <p>Delete</p>
       </button>
+      <?php
+        include_once('Includes/connector.php');
+
+        $query = "SELECT naam, prijs, beschrijving, categorie FROM menu ";
+        $stmt = $connect->prepare($query);
+        $stmt->execute();
+        $result = $stmt->fetchAll();
+
+        foreach($result as $product) {
+?>
+      <div class="products">
+                  <h2><?php echo $product['naam'];?></h2>
+                  <h2><?php echo $product['categorie'];?></h2>
+                  <h4><?php echo $product['beschrijving'];?></h4>              
+                  <h3><?php echo $product['prijs'];?></h3>
+      </div>
+    <?php
+        }
+?>
+       </div>
      </div>
     </div>
   </body>
-  <?php
-   include ('Includes/footer.php')
-  ?>
 </html>
