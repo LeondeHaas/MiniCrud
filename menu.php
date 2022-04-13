@@ -20,7 +20,7 @@
        <div class="menupages">
          <li><a href="menu.php">Menu</a></li>
          <li><a href="menu1.php">Action</a></li>
-         <li><a href="menu2.php">Specials</a></li>
+         <li><a href="menu2.php">Specialz</a></li>
          <li><a href="menu3.php">Family</a></li>
        </div>
       </div>
