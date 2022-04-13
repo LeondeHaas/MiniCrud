@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
    <?php
-  // include ('Includes/connector.php');
+
   include ('Includes/header.php');
 
   ?>
@@ -24,112 +24,38 @@
          <li><a href="menu3.php">Family</a></li>
        </div>
       </div>
-      <div class="containerblock1">
-        <div class="ordercontainer1">
-          <div class="order">
-            <img class="menusushi" src="Images/menusushi.png" alt="">
-             <div class="orderbutton">
-               <a href="index.php">
-                <img class="orderimg" src="Images/001-add-to-cart.png" alt="">
-               </a>
-               <div class="text">
-                  <h2>Maki</h2>
+      <div class="menuholder">
+
+      <?php
+        include_once('Includes/connector.php');
+
+        $query = "SELECT naam, prijs, beschrijving FROM menu";
+        $stmt = $connect->prepare($query);
+        $stmt->execute();
+        $result = $stmt->fetchAll();
+
+        foreach($result as $product) {
+?>
+        <!-- menu -->
+        <div class="menu1">
+           <img class="menusushi" src="Images/pexels-valeria-boltneva-10295770 (1).jpg" alt="">
+           <div class="orderbutton">
+              <a href="index.php">
+              <img class="orderimg" src="Images/001-add-to-cart.png" alt="">
+              </a>
+              <div class="text">
+                  <h2><?php echo $product['naam'];?></h2>
                   <br>
-                  <h4>111Tuna, edamame, cucumber, avocado, chili flakes & sriracha mayo</h4>
+                  <h4><?php echo $product['beschrijving'];?></h4>
                   <br>
-                  <h3>$3,99</h3>
-               </div>
+                  <h3><?php echo $product['prijs'];?></h3>
              </div>
-             <div class="ordercontainer1">
-          <div class="order">
-            <img class="menusushi" src="Images/menusushi.png" alt="">
-             <div class="orderbutton">
-                <a href="index.php">
-                <img class="orderimg" src="Images/001-add-to-cart.png" alt="">
-               </a>
-                 <div class="text">
-                  <h2>Temaki</h2>
-                  <br>
-                  <h4>111Tuna, edamame, cucumber, avocado, chili flakes & sriracha mayo</h4>
-                  <br>
-                  <h3>$6,99</h3>
-               </div>
-             </div>
-          </div>
+           </div>
         </div>
-          </div>
-        </div>
-        <div class="ordercontainer1">
-          <div class="order">
-            <img class="menusushi" src="Images/menusushi.png" alt="">
-             <div class="orderbutton">
-                <a href="index.php">
-                <img class="orderimg" src="Images/001-add-to-cart.png" alt="">
-               </a>
-                 <div class="text">
-                  <h2>Uramaki</h2>
-                  <br>
-                  <h4>111Tuna, edamame, cucumber, avocado, chili flakes & sriracha mayo</h4>
-                  <br>
-                  <h3>$2,99</h3>
-               </div>
-             </div>
-<div class="ordercontainer1">
-          <div class="order">
-            <img class="menusushi" src="Images/menusushi.png" alt="">
-             <div class="orderbutton">
-                <a href="index.php">
-                <img class="orderimg" src="Images/001-add-to-cart.png" alt="">
-               </a>
-                 <div class="text">
-                  <h2>Narezushi</h2>
-                  <br>
-                  <h4>111Tuna, edamame, cucumber, avocado, chili flakes & sriracha mayo</h4>
-                  <br>
-                  <h3>$5,99</h3>
-               </div>
-             </div>
-          </div>
-        </div>
-          </div>
-        </div>
-        <div class="ordercontainer1">
-          <div class="order">
-            <img class="menusushi" src="Images/menusushi.png" alt="">
-              <div class="orderbutton">
-                  <a href="index.php">
-                <img class="orderimg" src="Images/001-add-to-cart.png" alt="">
-               </a>
-                 <div class="text">
-                 <h2>Nigiri</h2>
-                  <br>
-                  <h4>111Tuna, edamame, cucumber, avocado, chili flakes & sriracha mayo</h4>
-                  <br>
-                  <h3>$1,99</h3>
-               </div>
-             </div>
-             <div class="ordercontainer1">
-          <div class="order">
-            <img class="menusushi" src="Images/menusushi.png" alt="">
-             <div class="orderbutton">
-                <a href="index.php">
-                <img class="orderimg" src="Images/001-add-to-cart.png" alt="">
-               </a>
-                 <div class="text">
-                 <h2>Gunkan</h2>
-                  <br>
-                  <h4>111Tuna, edamame, cucumber, avocado, chili flakes & sriracha mayo</h4>
-                  <br>
-                  <h3>$2,99</h3>
-               </div>
-             </div>
-          </div>
-        </div>
-          </div>
-        </div>
-        
-        
-         <!-- container with all orders -->
+        <?php
+        }
+?>
+        <!-- menu -->
       </div>
     </div>
     

@@ -19,11 +19,11 @@
            <a href="menu.php">
         <div class="reservation">
              <br><br><br><br><br><br><br>
-             <h1>Check our Menu</h1>
+             <h1>Check dssadour Menu</h1>
              <img class="arrow" src="Images/001-restaurant.png">
         </div>
         </a>
-        <a href="index.php">
+        <a href="reservation.php">
         <div class="menu">
             <br><br><br><br><br><br><br>
             <h1>Make a reservation</h1>

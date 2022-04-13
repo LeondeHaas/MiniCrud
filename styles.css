@@ -366,6 +366,43 @@ li {
   transition: 0.35s;
 }
 
+/* CSS for backend */
+.block6 {
+  width: auto;
+  height: 1500px;
+  background-image: linear-gradient(rgb(219, 109, 109), pink);
+}
+
+.rsrcontainer1 {
+  width: 1250px;
+  height: 1000px;
+  background-color: rgba(0, 0, 0, 0.229);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.buttonsC {
+  width: 200px;
+  height: 70px;
+  font-size: 20px;
+  background-color: rgb(65, 230, 68);
+}
+.buttonsU {
+  width: 200px;
+  height: 70px;
+  font-size: 20px;
+  background-color: blue;
+}
+.buttonsD {
+  width: 200px;
+  height: 70px;
+  font-size: 20px;
+  background-color: red;
+}
+
+/* responsive backend  */
+
 /* Responsive Menu pages */
 
 @media only screen and (max-width: 400px) {
