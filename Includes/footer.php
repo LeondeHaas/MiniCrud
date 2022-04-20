@@ -38,7 +38,7 @@
        </div>
      </div>
      <div class="containertime">
-      <div class="mapouter"><div class="gmap_canvas"><iframe width="500" height="355" id="gmap_canvas" src="https://maps.google.com/maps?q=Kaniwa,%20Bloemerstraat%2036,%206511%20EK%20Nijmegen&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com"></a><br><style>.mapouter{position:relative;text-align:right;height:355px;width:500px;}</style><a href="https://www.embedgooglemap.net">google map link html</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:355px;width:500px;}</style></div></div>
+      <div class="mapouter"><div class="gmap_canvas"><iframe width="375" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies-online.net">fmovies</a><br><a href="https://www.embedgooglemap.net"></a></div></div>
        </div>
      </div>
   </footer>

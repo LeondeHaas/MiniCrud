@@ -31,7 +31,7 @@
     <div class="container">
       <img class="bg" src="Images/loginBG.jpg" alt="" />
       <div class="form">
-        <form action="uitkomst.php" method="post">
+        <form action="/MiniCrud/backend.php" method="post">
           <br />
           <p>username</p>
           <input

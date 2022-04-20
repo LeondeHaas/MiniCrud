@@ -281,6 +281,7 @@ li {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-top: 20px;
 }
 
 .menu1 {
@@ -369,17 +370,19 @@ li {
 /* CSS for backend */
 .block6 {
   width: auto;
-  height: 1500px;
+  height: auto;
   background-image: linear-gradient(rgb(219, 109, 109), pink);
 }
 
 .rsrcontainer1 {
-  width: 1250px;
-  height: 1000px;
+  width: 750px;
+  height: auto;
   background-color: rgba(0, 0, 0, 0.229);
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  justify-content: space-around;
+  border-radius: 25px;
 }
 
 .buttonsC {
@@ -387,6 +390,9 @@ li {
   height: 70px;
   font-size: 20px;
   background-color: rgb(65, 230, 68);
+  transition: 0.55s;
+  border-radius: 10px;
+  border: solid 3px black;
 }
 .buttonsU {
   width: 200px;
@@ -399,6 +405,21 @@ li {
   height: 70px;
   font-size: 20px;
   background-color: red;
+}
+
+.add {
+  width: 25px;
+  height: 25px;
+}
+
+.products {
+  width: 100%;
+  height: auto;
+  background-color: rgb(130, 122, 122);
+  margin-top: 25px;
+  border-radius: 40px;
+  padding: 20px;
+  border: solid black 3px;
 }
 
 /* responsive backend  */
