@@ -1,3 +1,3 @@
 # MiniCrud
  
-THis is the project MiniCrud. We needed to use PHP and SQL.
+THis is the project MiniCrud. We used PHP, SQL and Javascript.
