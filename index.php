@@ -19,7 +19,7 @@
            <a href="menu.php">
         <div class="reservation">
              <br><br><br><br><br><br><br>
-             <h1>Check our Menu</h1>
+             <h1>Check Menu</h1>
              <img class="arrow" src="Images/001-restaurant.png">
         </div>
         </a>

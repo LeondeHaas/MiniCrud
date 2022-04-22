@@ -4,9 +4,6 @@
     <header>
       <div class="header">
         <img class="img" src="Images/sushi.png" alt="" />
-        <div class="search_bar">
-                  <input type="text" placeholder="Search..">
-                </div>
         <div class="page">
           <li><a class="pagina" href="index.php">Home</a></li>
         </div>
