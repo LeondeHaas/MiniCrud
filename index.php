@@ -26,7 +26,7 @@
         <a href="reservation.php">
         <div class="menu">
             <br><br><br><br><br><br><br>
-            <h1>Make a reservation</h1>
+            <h1>Make a reservationn</h1>
              <img class="arrow" src="Images/002-booking.png">
         </div>
         </a>
