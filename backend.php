@@ -37,10 +37,10 @@
                   <h4><?php echo $product['beschrijving'];?></h4>              
                   <h3><?php echo $product['prijs'];?></h3>
                     <button class="buttonsU">
-                       <img src="Images/001-system-update.png" alt="">
-                       <a href="change.php">
-                    <p>Update</p>
-                      </a>
+                  
+                     <a href="update.php?id=<?php echo $product['id']; ?>">
+              <button class="item_update_butn">Update</button>
+                    </a>
             </button>
               <form method="POST" action="php/remove.php">
               <input name="id" value="<?php echo $product['id']; ?>"type="hidden" readonly>
