@@ -20,6 +20,20 @@
        <div class="menupages">
          <li><a href="menu.php">Menu</a></li>
          <li><a href="menu1.php">Action</a></li>
+         <!-- search bar -->
+         <?php
+    if (!empty($_POST)){
+    $search = $_POST['search'];
+    $sql = "SELECT * FROM menu WHERE naam LIKE '%". $search. "%'";
+    } else {
+      $sql = "SELECT naam, prijs, beschrijving FROM menu";
+    }
+    ?>
+    <form action="menu.php" method="POST">
+            <div class="search_bar">
+        <input name="search" type="text" placeholder="Search..">
+        </div>
+  </form>
          <li><a href="menu2.php">Specials</a></li>
          <li><a href="menu3.php">Family</a></li>
        </div>
@@ -29,8 +43,7 @@
       <?php
         include_once('Includes/connector.php');
 
-        $query = "SELECT naam, prijs, beschrijving FROM menu";
-        $stmt = $connect->prepare($query);
+        $stmt = $connect->prepare($sql);
         $stmt->execute();
         $result = $stmt->fetchAll();
 

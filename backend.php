@@ -38,11 +38,13 @@
                   <h3><?php echo $product['prijs'];?></h3>
                     <button class="buttonsU">
                        <img src="Images/001-system-update.png" alt="">
+                       <a href="change.php">
                     <p>Update</p>
+                      </a>
             </button>
               <form method="POST" action="php/remove.php">
               <input name="id" value="<?php echo $product['id']; ?>"type="hidden" readonly>
-              <input type="submit" name="verwijderen" value="verwijderen" class="buttonsD">
+              <input type="submit" name="verwijderen" value="Delete" class="buttonsD">
             </form>
   
                   
